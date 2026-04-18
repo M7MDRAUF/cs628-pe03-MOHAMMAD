@@ -1,0 +1,61 @@
+/**
+ * MovieList.css
+ * 
+ * Styles for the MovieList component.
+ * Provides layout styling for the movie list container,
+ * the heading, the genre filter dropdown, and the cards container.
+ */
+
+/* Main container for the entire movie list application */
+.movie-list-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading style for "Movie List" */
+.movie-list-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container for the genre filter dropdown - centered layout */
+.genre-filter-container {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Genre dropdown select element styling */
+.genre-select {
+  padding: 6px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+/* Focus styling for the genre select dropdown */
+.genre-select:focus {
+  outline: 2px solid #4a90d9;
+  outline-offset: 1px;
+}
+
+/* Container for the list of movie cards */
+.movie-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Message shown when no movies match the filter */
+.no-movies-message {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+  margin-top: 20px;
+}

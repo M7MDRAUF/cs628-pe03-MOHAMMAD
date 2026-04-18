@@ -1,0 +1,14 @@
+/**
+ * App.css
+ * 
+ * Global styles for the App component.
+ * Provides a clean white background and minimal layout
+ * for the movie list application.
+ */
+
+/* Main application wrapper - clean background and minimum height */
+.App {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 10px;
+}

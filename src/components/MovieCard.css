@@ -1,0 +1,52 @@
+/**
+ * MovieCard.css
+ * 
+ * Styles for the MovieCard component.
+ * Provides styling for individual movie cards including borders,
+ * padding, hover effects, and text formatting.
+ */
+
+/* Container for each movie card - styled as a bordered card with hover effect */
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, background-color 0.2s ease;
+  background-color: #fff;
+}
+
+/* Hover effect for the movie card to indicate it is clickable */
+.movie-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  background-color: #fafafa;
+}
+
+/* Focus outline for keyboard accessibility */
+.movie-card:focus {
+  outline: 2px solid #4a90d9;
+  outline-offset: 2px;
+}
+
+/* Movie title styling - bold and larger font */
+.movie-title {
+  margin: 0 0 4px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Movie genre styling - normal weight, smaller text */
+.movie-genre {
+  margin: 0 0 2px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Movie release year styling - matches genre text style */
+.movie-release-year {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
